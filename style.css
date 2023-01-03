@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'DM+Serif+Display', Karla;
+}
+header {
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: hsl(273, 4%, 51%);
+}
+a:hover {
+    color: hsl(270, 9%, 17%);
+}
+.nav-links {
+    display: flex;
+    gap: 1.5rem;
+}
+.btn-primary {
+    border: 2px solid  hsl(270, 9%, 17%);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.btn-primary:hover {
+    background-color: hsl(270, 9%, 17%); /* Green */
+    color: white;
+  }
+  .intro{
+     background-color: hsl(256, 26%, 20%); 
+     padding-left: 12rem;
+     padding-top: 3rem;
+     width: 100%;
+  }
+  .intro-1 h1{
+    font-size: 3rem;
+    font-family: DM;
+    font-weight: 400;
+    color: white;
+    wi
+  }
+  .intro-1 p{
+    font-size: 16px;
+    font-family: DM;
+    font-weight:normal;
+    color: white;
+  }
+  
+  .line-1 {
+    display: block;
+    height: 1px;
+    background: white;
+    width: 10%;
+  }
