@@ -28,6 +28,9 @@ a:hover {
     display: flex;
     gap: 1.5rem;
 }
+.nav-links img {
+    display: none;
+}
 .btn-primary {
     border: 2px solid  hsl(270, 9%, 17%);
     padding-left: 15px;
@@ -172,8 +175,7 @@ margin-top: 5rem;
     padding-left: 10rem;
 }
 .social-icons {
-/* margin-top: 2rem; */
-margin-left: 60rem;
+padding-left: 55rem;
 display: flex;
 gap: 4%;  
 }
@@ -184,7 +186,8 @@ gap: 4%;
 display: block;
 height: 1px;
 background: gray;
-width: 100%;
+width: 75%;
+margin-left: 10rem;
 margin-top: 3rem;
 text-align: center;
 }
@@ -212,8 +215,103 @@ text-align: center;
     color: gray;
     font-size: 16px;
     font-weight: 400;
+
 }
 li {
     color:  hsl(270, 9%, 17%);
     font-size: 16px;
+    padding-top: 1rem;
+}
+.attribution{
+    color: burlywood;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Karla;
+}
+.attribution a:hover{
+    color: lightcoral;
+    font-family: Karla;
+}
+@media only screen and (max-width:950px) {
+.nav-links a{
+    display: none;
+}
+.nav-links img {
+    display: block;
+}
+.intro {
+    flex-direction: column-reverse;
+    padding-left: unset;
+    text-align: center;
+}
+.intro-1 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 5rem;
+    padding-top: 3rem;
+}
+.line-1 {
+    display: none;
+}
+.intro img {
+    width: 100%;
+    padding-right: unset;
+    margin-bottom: unset;
+}
+.next-div {
+padding-left: unset;
+text-align: center;
+}
+.line-2 {
+    width: 30%;
+    margin-left: 20rem;
+}
+.grid-area {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.sub-grid big {
+    font-size: 2rem;
+}
+.sub-grid small {
+    width: 30%;
+    margin-left: 20rem;
+}
+.box {
+    flex-direction: column;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    width: 80%;
+    text-align: center;
+}
+.box h1 {
+    text-align: center;
+    width: 30%;
+    margin-left: 16rem;
+}
+.footer-logo {
+    padding-left: 17rem;
+}
+.social-icons {
+padding-left: unset;
+margin-left: 25rem;
+padding-top: 2rem;
+}
+.line-3 {
+    width: 60%;
+    margin-left: 13rem;
+}
+.footer-grid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
+}
 }
